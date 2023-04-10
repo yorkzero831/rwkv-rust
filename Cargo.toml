@@ -11,7 +11,7 @@ bindgen = "0.64.0"
 
 [dependencies]
 libloading = "0.7"
-libc = "0.2"
+#libc = "0.2"
 # Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
 clap = { version = "4.1.8", features = ["derive"] }
 #llama-rs = { git = "https://github.com/rustformers/llama-rs.git", branch = "main", features = ["convert"] }
