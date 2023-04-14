@@ -1,4 +1,5 @@
 mod rwkv_rust_model;
+mod sampling;
 include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 
 
